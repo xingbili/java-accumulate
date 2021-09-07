@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xingbili-code-generator/xingbili-code-generator.iml" filepath="$PROJECT_DIR$/xingbili-code-generator/xingbili-code-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingbili-common-utils/xingbili-common-utils.iml" filepath="$PROJECT_DIR$/xingbili-common-utils/xingbili-common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingbili-java-base/xingbili-java-base.iml" filepath="$PROJECT_DIR$/xingbili-java-base/xingbili-java-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingbili-parent.iml" filepath="$PROJECT_DIR$/xingbili-parent.iml" />
+    </modules>
+  </component>
+</project>
