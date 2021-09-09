@@ -57,7 +57,6 @@ public class MyGenerator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        //System.getProperty("user.dir");
         String projectPath = "D:/";
         String projectName = "code-generator";
         gc.setOutputDir(projectPath + "/" + projectName + "/src/main/java");
@@ -70,7 +69,7 @@ public class MyGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://129.211.82.202:3306/code_demo?useUnicode=true&serverTimezone=GMT&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://129.211.82.202:3306/mybatis_plus?useUnicode=true&serverTimezone=GMT&useSSL=false&characterEncoding=utf8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("123456");
@@ -79,7 +78,7 @@ public class MyGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(scanner("模块名"));
-        pc.setParent("com.fusionfintrade");
+        pc.setParent("work.xingbili");
         pc.setService("service.base");
         pc.setServiceImpl("service.base.impl");
         mpg.setPackageInfo(pc);
@@ -98,7 +97,7 @@ public class MyGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输入文件名称
-                return projectPath + "/" + projectName + "/src/main/java/com/fusionfintrade/" + generatModulePath(pc.getModuleName()) + "/entity"
+                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + generatModulePath(pc.getModuleName()) + "/entity"
                         + "/" + tableInfo.getEntityName() + StringPool.DOT_JAVA;
             }
         });
@@ -108,7 +107,7 @@ public class MyGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输入文件名称
-                return projectPath + "/" + projectName + "/src/main/java/com/fusionfintrade/" + generatModulePath(pc.getModuleName()) + "/mapper"
+                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + generatModulePath(pc.getModuleName()) + "/mapper"
                         + "/" + tableInfo.getMapperName() + StringPool.DOT_JAVA;
             }
         });
@@ -127,7 +126,7 @@ public class MyGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输入文件名称
-                return projectPath + "/" + projectName + "/src/main/java/com/fusionfintrade/" + generatModulePath(pc.getModuleName()) + "/service/base"
+                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + generatModulePath(pc.getModuleName()) + "/service/base"
                         + "/" + tableInfo.getServiceName() + StringPool.DOT_JAVA;
             }
         });
@@ -137,7 +136,7 @@ public class MyGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输入文件名称
-                return projectPath + "/" + projectName + "/src/main/java/com/fusionfintrade/" + pc.getModuleName() + "/service/base/impl"
+                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + pc.getModuleName() + "/service/base/impl"
                         + "/" + tableInfo.getServiceImplName() + StringPool.DOT_JAVA;
             }
         });
@@ -147,7 +146,7 @@ public class MyGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输入文件名称
-                return projectPath + "/" + projectName + "/src/main/java/com/fusionfintrade/" + pc.getModuleName() + "/controller"
+                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + pc.getModuleName() + "/controller"
                         + "/" + tableInfo.getControllerName() + StringPool.DOT_JAVA;
             }
         });
@@ -170,12 +169,7 @@ public class MyGenerator {
         strategy.setVersionFieldName("version");
         strategy.setTableFillList(Arrays.asList(new TableFill("version", FieldFill.INSERT)));
         strategy.setRestControllerStyle(true);
-//        strategy.setSuperEntityClass("com.baomidou.mybatisplus.samples.generator.common.BaseEntity");
         strategy.setEntityLombokModel(true);
-//        strategy.setSuperControllerClass("com.baomidou.mybatisplus.samples.generator.common.BaseController");
-//        strategy.setInclude(scanner("表名"));
-//        strategy.setSuperEntityColumns("id");
-//        strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");
         mpg.setStrategy(strategy);
         // 选择 freemarker 引擎需要指定如下加，注意 pom 依赖必须有！

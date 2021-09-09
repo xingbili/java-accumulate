@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/xingbili-code-generator/xingbili-code-generator.iml" filepath="$PROJECT_DIR$/xingbili-code-generator/xingbili-code-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/xingbili-common-utils/xingbili-common-utils.iml" filepath="$PROJECT_DIR$/xingbili-common-utils/xingbili-common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingbili-designpattern/xingbili-designpattern.iml" filepath="$PROJECT_DIR$/xingbili-designpattern/xingbili-designpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/xingbili-java-base/xingbili-java-base.iml" filepath="$PROJECT_DIR$/xingbili-java-base/xingbili-java-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingbili-mybatisplus/xingbili-mybatisplus.iml" filepath="$PROJECT_DIR$/xingbili-mybatisplus/xingbili-mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/xingbili-parent.iml" filepath="$PROJECT_DIR$/xingbili-parent.iml" />
     </modules>
   </component>

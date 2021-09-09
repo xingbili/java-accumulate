@@ -8,15 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="xingbili-java-base" />
-        <module name="xingbili-code-generator" />
         <module name="xingbili-common-utils" />
+        <module name="xingbili-designpattern" />
+        <module name="xingbili-code-generator" />
+        <module name="xingbili-mybatisplus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="java-base" target="1.8" />
-      <module name="xingbili-code-generator" target="1.8" />
+      <module name="xingbili-code-generator" target="8" />
       <module name="xingbili-common-utils" target="1.8" />
-      <module name="xingbili-java-base" target="1.8" />
+      <module name="xingbili-designpattern" target="1.8" />
+      <module name="xingbili-java-base" target="8" />
+      <module name="xingbili-mybatisplus" target="8" />
       <module name="xingbili-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -25,7 +29,9 @@
       <module name="java-base" options="-parameters" />
       <module name="xingbili-code-generator" options="-parameters" />
       <module name="xingbili-common-utils" options="-parameters" />
+      <module name="xingbili-designpattern" options="-parameters" />
       <module name="xingbili-java-base" options="-parameters" />
+      <module name="xingbili-mybatisplus" options="-parameters" />
     </option>
   </component>
 </project>
