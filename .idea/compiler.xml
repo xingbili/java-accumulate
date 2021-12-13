@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mock-server" />
+        <module name="person-demo" />
+        <module name="hello-shiro" />
+        <module name="xingbili-springboot" />
+        <module name="springboot-shiro" />
+        <module name="wiki" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hello-shiro" options="-parameters" />
+      <module name="mock-server" options="-parameters" />
+      <module name="person-demo" options="-parameters" />
+      <module name="springboot-shiro" options="-parameters" />
+      <module name="wiki" options="-parameters" />
+      <module name="xingbili-springboot" options="-parameters" />
+    </option>
+  </component>
+</project>
