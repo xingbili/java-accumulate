@@ -7,6 +7,10 @@ package work.xingbili.mockserver.service.impl;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import work.xingbili.mockserver.common.BusinessException;
@@ -25,6 +29,7 @@ import work.xingbili.mockserver.service.ITbApiInfoService;
  */
 @Slf4j
 @Service
+@CacheConfig(cacheNames = {"apiinfo"})
 public class TbApiInfoServiceImpl extends ServiceImpl<TbApiInfoMapper, TbApiInfo> implements ITbApiInfoService {
 
     @Transactional(rollbackFor = Exception.class)
@@ -47,5 +52,27 @@ public class TbApiInfoServiceImpl extends ServiceImpl<TbApiInfoMapper, TbApiInfo
             throw new BusinessException(ErrorCodeEnum.E009.getErrorCode(),
                 ErrorCodeEnum.E009.getErrorMessage());
         }
-    }    
+    }
+
+    @Cacheable(key = "#a0.id")
+    @Override
+    public void insert(TbApiInfo tbApiInfo) {
+        getBaseMapper().insert(tbApiInfo);
+    }
+    @CacheEvict(key = "#p0")
+    @Override
+    public void deleteIt(Integer id) {
+        getBaseMapper().deleteById(id);
+    }
+    @CachePut(key = "#a0.id")
+    @Override
+    public TbApiInfo update(TbApiInfo tbApiInfo) {
+        getBaseMapper().updateByIdWithOptimistiLock(tbApiInfo);
+        return tbApiInfo;
+    }
+    @Cacheable(key = "#id", condition = "#p0>=1")
+    @Override
+    public TbApiInfo getById(Integer id) {
+        return getBaseMapper().selectById(id);
+    }
 }

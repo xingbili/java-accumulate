@@ -7,12 +7,12 @@ package work.xingbili.mockserver.controller;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.util.AntPathMatcher;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.HandlerMapping;
+import work.xingbili.mockserver.entity.TbApiInfo;
+import work.xingbili.mockserver.service.ITbApiInfoService;
 import work.xingbili.mockserver.service.ITbApiResponseService;
 
 import javax.servlet.http.HttpServletRequest;
@@ -34,6 +34,8 @@ public class MockServerController {
 
     @Autowired
     private ITbApiResponseService iTbApiResponseService;
+    @Autowired
+    private ITbApiInfoService iTbApiInfoService;
 
     /**
      * 通过@PathVariable获取路径中的参数
@@ -55,6 +57,33 @@ public class MockServerController {
         log.info("mock 接口调用入参apiPath:{},request:{}",apiPath,JSONObject.toJSONString(JSONObject.toJSONString(req)));
         JSONObject returnObject = iTbApiResponseService.getResponse("/"+apiPath,req);
         return returnObject;
+    }
+
+    @GetMapping("/index")
+    public String index() {
+        return "index";
+    }
+    @GetMapping("/deleteTblApiInfo/{id}")
+    public String deleteDepart(@PathVariable("id") Integer id, Model model) {
+        model.addAttribute("condition", "delete");
+        TbApiInfo delete = iTbApiInfoService.getById(id);
+        model.addAttribute("department", delete);
+        iTbApiInfoService.deleteIt(id);
+        return "success";
+    }
+    @PostMapping("/updateTblApiInfo")
+    public String updateDepart(TbApiInfo tbApiInfo, Model model) {
+        model.addAttribute("condition", "update");
+        TbApiInfo update = iTbApiInfoService.update(tbApiInfo);
+        model.addAttribute("department", update);
+        return "success";
+    }
+    @GetMapping("/getTblApiInfo/{id}")
+    public String getDepartmentById(@PathVariable("id") Integer id, Model model) {
+        model.addAttribute("condition", "delete");
+        TbApiInfo get = iTbApiInfoService.getById(id);
+        model.addAttribute("department", get);
+        return "success";
     }
 
     /**

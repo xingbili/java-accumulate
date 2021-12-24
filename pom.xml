@@ -11,10 +11,12 @@
     <description>根POM</description>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>xingbili-springboot</module>
         <module>hello-shiro</module>
         <module>springboot-shiro</module>
         <module>mock-server</module>
+        <module>code-generator</module>
+        <module>wiki</module>
+        <module>person-demo</module>
     </modules>
 
     <parent>

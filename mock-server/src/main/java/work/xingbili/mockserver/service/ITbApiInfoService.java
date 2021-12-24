@@ -30,4 +30,12 @@ public interface ITbApiInfoService extends IService<TbApiInfo> {
      */
     void updateByIdWithOptimistiLock(TbApiInfo entity);
 
+     void insert(TbApiInfo tbApiInfo);
+
+     void deleteIt(Integer id);
+
+    TbApiInfo update(TbApiInfo tbApiInfo);
+
+    TbApiInfo getById(Integer id);
+
 }

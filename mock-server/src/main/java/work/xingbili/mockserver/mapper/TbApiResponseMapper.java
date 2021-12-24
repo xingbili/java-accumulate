@@ -5,7 +5,6 @@ package work.xingbili.mockserver.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.apache.ibatis.annotations.Mapper;
 import work.xingbili.mockserver.entity.TbApiResponse;
 
 /**
@@ -16,7 +15,6 @@ import work.xingbili.mockserver.entity.TbApiResponse;
  * @author code generator
  * @since 2021-12-08
  */
-@Mapper
 public interface TbApiResponseMapper extends BaseMapper<TbApiResponse> {
 
     /**
