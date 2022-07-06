@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="work.xingbili.mapper.CorpLegalMapper">
+
+
+	<!-- 根据id表全字段更新 -->
+	<update id="updateByIdWithOptimistiLock" parameterType="work.xingbili.entity.CorpLegal">
+		UPDATE auth_corp_legal
+		set
+			id = #{id},
+			org_id = #{orgId},
+			id_type = #{idType},
+			idcart_a_file_id = #{idcartAFileId},
+			idcart_b_file_id = #{idcartBFileId},
+			user_name = #{userName},
+			id_no = #{idNo},
+			mobile_phone = #{mobilePhone},
+			identity_flag = #{identityFlag},
+			create_user = #{createUser},
+			create_date = #{createDate},
+			update_user = #{updateUser},
+			update_date = #{updateDate},
+			version = #{version} + 1
+		WHERE id = #{id, jdbcType=BIGINT} AND version = #{version}
+	</update>
+</mapper>

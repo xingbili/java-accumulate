@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="work.xingbili.mapper.CorpPubAcctMapper">
+
+	
+	<!-- 根据id表全字段更新 -->
+	<update id="updateByIdWithOptimistiLock" parameterType="work.xingbili.entity.CorpPubAcct">
+		UPDATE auth_corp_pub_acct
+		set 
+		 id = #{id},
+		 org_id = #{orgId},
+		 account_name = #{accountName},
+		 account_no = #{accountNo},
+		 bank_branch_name = #{bankBranchName},
+		 bank_branch_id = #{bankBranchId},
+		 bank_branch_no = #{bankBranchNo},
+		 create_user = #{createUser},
+		 create_date = #{createDate},
+		 update_user = #{updateUser},
+		 update_date = #{updateDate},
+		version = #{version} + 1 
+		WHERE id = #{id, jdbcType=BIGINT} AND version = #{version}
+	</update>
+</mapper>

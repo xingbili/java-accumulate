@@ -57,8 +57,8 @@ public class FusionFinTradeGenerator {
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
         //System.getProperty("user.dir");
-        String projectPath = "D:/workspace/pvbank/pvbank-mock/";
-        String projectName = "prj-pvbank-mock";
+        String projectPath = "D:/workspace/";
+        String projectName = "pvbank-auth";
         gc.setOutputDir(projectPath + "/" + projectName + "/src/main/java");
         gc.setAuthor("code generator");
         gc.setOpen(false);
@@ -69,10 +69,10 @@ public class FusionFinTradeGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://10.30.4.53:3306/fusion-fin-mock?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/rzbank_dev?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("root");
+        dsc.setPassword("123456");
         mpg.setDataSource(dsc);
 
         // 包配置

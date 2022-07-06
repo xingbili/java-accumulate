@@ -17,6 +17,8 @@
         <module>code-generator</module>
         <module>wiki</module>
         <module>person-demo</module>
+        <module>mybatis-plus-example</module>
+        <module>xingbili-spring-boot-start</module>
     </modules>
 
     <parent>
@@ -69,26 +71,34 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+        </dependency>
     </dependencies>
 
     <!--版本管理，子项目版本统一管理-->
     <dependencyManagement>
         <dependencies>
-
+            <dependency>
+                <version>2.5.4</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <!--build插件配置-->
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <fork>true</fork>
-                    <addResources>true</addResources>
-                </configuration>
-            </plugin>
-        </plugins>
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <fork>true</fork>-->
+<!--                    <addResources>true</addResources>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
     </build>
     <!--私服配置-->
     <!--    <repositories>-->

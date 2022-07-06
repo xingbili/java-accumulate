@@ -28,7 +28,7 @@ public class GeneratorDBDocument {
         // 数据源配置
         HikariConfig hikariConfig = new HikariConfig();
         hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        hikariConfig.setJdbcUrl("jdbc:mysql://10.30.4.53:3306/fusion-fin-mock?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
+        hikariConfig.setJdbcUrl("jdbc:mysql://10.30.4.53:3306/pvbank_db_dev?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
         hikariConfig.setUsername("root");
         hikariConfig.setPassword("root");
         // 设置可以获取tables remarks信息

@@ -75,4 +75,9 @@ public class TbApiInfoServiceImpl extends ServiceImpl<TbApiInfoMapper, TbApiInfo
     public TbApiInfo getById(Integer id) {
         return getBaseMapper().selectById(id);
     }
+
+    @Override
+    public void testException() throws RuntimeException {
+        System.out.println("test");
+    }
 }

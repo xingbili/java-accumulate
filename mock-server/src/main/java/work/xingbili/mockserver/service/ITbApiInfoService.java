@@ -38,4 +38,6 @@ public interface ITbApiInfoService extends IService<TbApiInfo> {
 
     TbApiInfo getById(Integer id);
 
+     void testException() throws  RuntimeException;
+
 }

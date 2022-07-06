@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="work.xingbili.mapper.BankUserMapper">
+
+	
+	<!-- 根据id表全字段更新 -->
+	<update id="updateByIdWithOptimistiLock" parameterType="work.xingbili.entity.BankUser">
+		UPDATE auth_bank_user
+		set
+			id = #{id},
+			user_id = #{userId},
+			id_type = #{idType},
+			id_no = #{idNo},
+			is_cust_manager = #{isCustManager},
+			is_admin = #{isAdmin},
+			create_user = #{createUser},
+			create_date = #{createDate},
+			update_user = #{updateUser},
+			update_date = #{updateDate},
+			version = #{version} + 1
+		WHERE id = #{id, jdbcType=BIGINT} AND version = #{version}
+	</update>
+</mapper>
