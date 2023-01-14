@@ -19,6 +19,7 @@
         <module>person-demo</module>
         <module>mybatis-plus-example</module>
         <module>xingbili-spring-boot-start</module>
+        <module>xxx-maven-plugin</module>
     </modules>
 
     <parent>

@@ -32,7 +32,7 @@ import java.io.IOException;
 @RequestMapping("/mockserver")
 public class MockServerController {
 
-    @Autowired
+    //@Autowired
     private ITbApiResponseService iTbApiResponseService;
     @Autowired
     private ITbApiInfoService iTbApiInfoService;

@@ -1,0 +1,5 @@
+com\xingbili\bootstarter\config\ConfigMarker.class
+com\xingbili\bootstarter\config\EnableXXX.class
+META-INF\spring-configuration-metadata.json
+com\xingbili\bootstarter\config\MyAutoConfiguration.class
+com\xingbili\bootstarter\dto\SimpleBean.class

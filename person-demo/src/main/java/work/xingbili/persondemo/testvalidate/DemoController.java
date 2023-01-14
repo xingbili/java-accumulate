@@ -1,7 +1,6 @@
 /**
  * 版权信息: © 聚均科技
  */
-
 package work.xingbili.persondemo.testvalidate;
 
 import org.springframework.web.bind.annotation.RestController;

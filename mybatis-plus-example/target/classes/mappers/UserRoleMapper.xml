@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="work.xingbili.mapper.UserRoleMapper">
+
+	
+	<!-- 根据id表全字段更新 -->
+	<update id="updateByIdWithOptimistiLock" parameterType="work.xingbili.entity.UserRole">
+		UPDATE auth_user_role
+		set 
+		 id = #{id},
+		 user_id = #{userId},
+		 role_id = #{roleId},
+		 org_id = #{orgId},
+		 create_user = #{createUser},
+		 create_date = #{createDate},
+		 update_user = #{updateUser},
+		 update_date = #{updateDate},
+		version = #{version} + 1 
+		WHERE id = #{id, jdbcType=BIGINT} AND version = #{version}
+	</update>
+    <select id="getByOrgIdAndUserId" resultType="work.xingbili.dto.UserRoleDto">
+		select ur.*,r.role_name,r.corp_identity,r.is_admin
+		from auth_user_role ur
+		    left join auth_role r
+		        on ur.role_id = r.id
+		    where ur.user_id = #{userId} and ( ur. org_id = #{orgId} or ur.org_id is null)
+	</select>
+</mapper>

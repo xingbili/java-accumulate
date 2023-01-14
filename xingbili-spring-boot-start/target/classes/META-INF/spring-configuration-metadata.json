@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "simplebean",
+      "type": "com.xingbili.bootstarter.dto.SimpleBean",
+      "sourceType": "com.xingbili.bootstarter.dto.SimpleBean"
+    }
+  ],
+  "properties": [
+    {
+      "name": "simplebean.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xingbili.bootstarter.dto.SimpleBean"
+    },
+    {
+      "name": "simplebean.name",
+      "type": "java.lang.String",
+      "sourceType": "com.xingbili.bootstarter.dto.SimpleBean"
+    }
+  ],
+  "hints": []
+}

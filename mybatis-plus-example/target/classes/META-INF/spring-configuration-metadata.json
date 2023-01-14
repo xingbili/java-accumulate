@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "developer",
+      "type": "work.xingbili.config.DBConfig",
+      "sourceType": "work.xingbili.config.DBConfig"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "work.xingbili.config.DataSourceProxyConfig",
+      "sourceMethod": "druidDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

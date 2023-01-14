@@ -1,0 +1,1015 @@
+2022-07-15 14:04:26.711  INFO 20788 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 20788 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:04:26.721  INFO 20788 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:04:26.818  INFO 20788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:04:26.819  INFO 20788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:04:28.532  INFO 20788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:04:28.540  INFO 20788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:04:28.541  INFO 20788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:04:28.608  INFO 20788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:04:28.609  INFO 20788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1788 ms
+2022-07-15 14:04:29.509  WARN 20788 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'simpleBean'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xingbili.bootstarter.dto.SimpleBean' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-15 14:04:29.510  INFO 20788 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:04:29.512  INFO 20788 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:04:29.530  INFO 20788 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:04:29.551 ERROR 20788 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field simpleBean in work.xingbili.mockserver.controller.TestController required a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' in your configuration.
+
+2022-07-15 14:04:48.161  INFO 26720 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 26720 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:04:48.163  INFO 26720 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:04:48.223  INFO 26720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:04:48.223  INFO 26720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:04:49.195  INFO 26720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:04:49.203  INFO 26720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:04:49.203  INFO 26720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:04:49.273  INFO 26720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:04:49.273  INFO 26720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1049 ms
+2022-07-15 14:04:50.157  WARN 26720 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'simpleBean'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xingbili.bootstarter.dto.SimpleBean' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-15 14:04:50.157  INFO 26720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:04:50.159  INFO 26720 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:04:50.179  INFO 26720 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:04:50.200 ERROR 26720 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field simpleBean in work.xingbili.mockserver.controller.TestController required a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' in your configuration.
+
+2022-07-15 14:06:11.014  INFO 27448 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 27448 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:06:11.017  INFO 27448 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:06:11.074  INFO 27448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:06:11.074  INFO 27448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:06:12.028  INFO 27448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:06:12.036  INFO 27448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:06:12.036  INFO 27448 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:06:12.109  INFO 27448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:06:12.110  INFO 27448 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2022-07-15 14:06:12.985  WARN 27448 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'simpleBean'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xingbili.bootstarter.dto.SimpleBean' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-15 14:06:12.985  INFO 27448 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:06:12.987  INFO 27448 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:06:13.003  INFO 27448 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:06:13.025 ERROR 27448 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field simpleBean in work.xingbili.mockserver.controller.TestController required a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' in your configuration.
+
+2022-07-15 14:06:48.522  INFO 26748 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 26748 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:06:48.524  INFO 26748 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:06:48.590  INFO 26748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:06:48.591  INFO 26748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:06:49.820  INFO 26748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:06:49.834  INFO 26748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:06:49.834  INFO 26748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:06:49.943  INFO 26748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:06:49.943  INFO 26748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1341 ms
+2022-07-15 14:06:51.149  WARN 26748 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'simpleBean'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xingbili.bootstarter.dto.SimpleBean' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-15 14:06:51.150  INFO 26748 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:06:51.153  INFO 26748 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:06:51.174  INFO 26748 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:06:51.199 ERROR 26748 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field simpleBean in work.xingbili.mockserver.controller.TestController required a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' in your configuration.
+
+2022-07-15 14:07:16.515  INFO 23968 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 23968 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:07:16.518  INFO 23968 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:07:16.587  INFO 23968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:07:16.588  INFO 23968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:07:17.493  WARN 23968 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[work.xingbili.mockserver]' package. Please check your configuration.
+2022-07-15 14:07:18.046  INFO 23968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:07:18.057  INFO 23968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:07:18.057  INFO 23968 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:07:18.144  INFO 23968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:07:18.144  INFO 23968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1555 ms
+2022-07-15 14:07:18.206  WARN 23968 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mockServerController': Unsatisfied dependency expressed through field 'iTbApiInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbApiInfoServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'work.xingbili.mockserver.mapper.TbApiInfoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-15 14:07:18.209  INFO 23968 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:07:18.228  INFO 23968 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:07:18.255 ERROR 23968 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mockServerController': Unsatisfied dependency expressed through field 'iTbApiInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbApiInfoServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'work.xingbili.mockserver.mapper.TbApiInfoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.4.jar:2.5.4]
+	at work.xingbili.mockserver.Application.main(Application.java:28) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_65]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.4.jar:2.5.4]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbApiInfoServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'work.xingbili.mockserver.mapper.TbApiInfoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'work.xingbili.mockserver.mapper.TbApiInfoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 39 common frames omitted
+
+2022-07-15 14:08:19.095  INFO 6104 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 6104 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:08:19.097  INFO 6104 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:08:19.141  INFO 6104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:08:19.141  INFO 6104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:08:20.075  INFO 6104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:08:20.083  INFO 6104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:08:20.083  INFO 6104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:08:20.145  INFO 6104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:08:20.145  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1003 ms
+2022-07-15 14:08:21.058  WARN 6104 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'simpleBean'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xingbili.bootstarter.dto.SimpleBean' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-15 14:08:21.059  INFO 6104 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:08:21.061  INFO 6104 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:08:21.076  INFO 6104 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:08:21.102 ERROR 6104 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field simpleBean in work.xingbili.mockserver.controller.TestController required a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' in your configuration.
+
+2022-07-15 14:09:34.014  INFO 20976 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 20976 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:09:34.017  INFO 20976 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:09:34.079  INFO 20976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:09:34.080  INFO 20976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:09:35.079  INFO 20976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:09:35.086  INFO 20976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:09:35.086  INFO 20976 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:09:35.157  INFO 20976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:09:35.157  INFO 20976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1076 ms
+2022-07-15 14:09:36.006  WARN 20976 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'simpleBean'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xingbili.bootstarter.dto.SimpleBean' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-07-15 14:09:36.007  INFO 20976 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:09:36.009  INFO 20976 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:09:36.026  INFO 20976 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:09:36.044 ERROR 20976 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field simpleBean in work.xingbili.mockserver.controller.TestController required a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xingbili.bootstarter.dto.SimpleBean' in your configuration.
+
+2022-07-15 14:10:19.906  INFO 8928 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 8928 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:10:19.910  INFO 8928 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:10:19.956  INFO 8928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:10:19.957  INFO 8928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:10:21.151  INFO 8928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:10:21.162  INFO 8928 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:10:21.163  INFO 8928 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:10:21.245  INFO 8928 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:10:21.245  INFO 8928 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1288 ms
+2022-07-15 14:10:22.371  INFO 8928 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:10:22.550  INFO 8928 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:10:22.587  INFO 8928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:10:22.596  INFO 8928 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.197 seconds (JVM running for 4.212)
+2022-07-15 14:10:45.372  INFO 8928 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:10:45.372  INFO 8928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:10:45.373  INFO 8928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:11:52.510  INFO 8928 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:12:18.615  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 11740 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:12:18.617  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:12:18.673  INFO 11740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:12:18.673  INFO 11740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:12:19.725  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:12:19.734  INFO 11740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:12:19.734  INFO 11740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:12:19.821  INFO 11740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:12:19.821  INFO 11740 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1148 ms
+2022-07-15 14:12:20.976  INFO 11740 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:12:21.149  INFO 11740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:12:21.184  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:12:21.195  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 2.993 seconds (JVM running for 26.37)
+2022-07-15 14:12:30.084  INFO 11740 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:12:30.085  INFO 11740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:12:30.086  INFO 11740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:13:57.453  INFO 11740 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:13:57.868  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 11740 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:13:57.868  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:13:58.571  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:13:58.573  INFO 11740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:13:58.573  INFO 11740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:13:58.596  INFO 11740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:13:58.596  INFO 11740 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 718 ms
+2022-07-15 14:13:59.315  INFO 11740 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:13:59.431  INFO 11740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:13:59.455  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:13:59.464  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 1.673 seconds (JVM running for 124.641)
+2022-07-15 14:13:59.470  INFO 11740 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:13:59.738  INFO 11740 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:13:59.740  INFO 11740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:13:59.741  INFO 11740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:14:05.816  INFO 11740 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:14:06.006  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 11740 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:14:06.006  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:14:06.358  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:14:06.359  INFO 11740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:14:06.359  INFO 11740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:14:06.370  INFO 11740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:14:06.370  INFO 11740 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 359 ms
+2022-07-15 14:14:06.835  INFO 11740 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:14:06.884  INFO 11740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:14:06.896  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:14:06.900  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 0.924 seconds (JVM running for 132.076)
+2022-07-15 14:14:06.901  INFO 11740 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:15:01.239  INFO 11740 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:15:01.239  INFO 11740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:15:01.240  INFO 11740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-15 14:17:46.969  INFO 11740 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:17:47.269  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 11740 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:17:47.269  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:17:47.627  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:17:47.628  INFO 11740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:17:47.628  INFO 11740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:17:47.644  INFO 11740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:17:47.644  INFO 11740 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 371 ms
+2022-07-15 14:17:48.223  INFO 11740 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:17:48.272  INFO 11740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:17:48.283  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:17:48.286  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 1.061 seconds (JVM running for 353.477)
+2022-07-15 14:17:48.287  INFO 11740 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:18:28.665  INFO 11740 --- [Thread-26] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:18:28.849  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 11740 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:18:28.849  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:18:29.095  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:18:29.095  INFO 11740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:18:29.095  INFO 11740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:18:29.107  INFO 11740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:18:29.107  INFO 11740 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 256 ms
+2022-07-15 14:18:29.454  WARN 11740 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [work.xingbili.mockserver.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2c434d16]
+2022-07-15 14:18:29.455  INFO 11740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:18:29.455  INFO 11740 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:18:29.461  INFO 11740 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:18:29.485 ERROR 11740 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [work.xingbili.mockserver.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2c434d16]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.4.jar:2.5.4]
+	at work.xingbili.mockserver.Application.main(Application.java:30) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_65]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.4.jar:2.5.4]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [work.xingbili.mockserver.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2c434d16]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: work/xingbili/mockserver/entity/Item
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[na:1.8.0_65]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760) ~[na:1.8.0_65]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[na:1.8.0_65]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467) ~[na:1.8.0_65]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) ~[na:1.8.0_65]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368) ~[na:1.8.0_65]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362) ~[na:1.8.0_65]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_65]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361) ~[na:1.8.0_65]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.findClass(RestartClassLoader.java:160) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:142) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_65]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[na:1.8.0_65]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[na:1.8.0_65]
+	at java.lang.Class.getDeclaredMethods(Class.java:1975) ~[na:1.8.0_65]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.9.jar:5.3.9]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: work.xingbili.mockserver.entity.Item
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_65]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_65]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_65]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_65]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_65]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_65]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_65]
+	... 41 common frames omitted
+
+2022-07-15 14:19:11.699  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 11740 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:19:11.699  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:19:12.129  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:19:12.130  INFO 11740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:19:12.130  INFO 11740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:19:12.147  INFO 11740 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:19:12.148  INFO 11740 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 445 ms
+2022-07-15 14:19:12.621  INFO 11740 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:19:12.673  INFO 11740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:19:12.684  INFO 11740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:19:12.688  INFO 11740 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 1.014 seconds (JVM running for 437.89)
+2022-07-15 14:19:12.689  INFO 11740 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:20:23.067  INFO 11740 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:20:29.277  INFO 21184 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 21184 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:20:29.279  INFO 21184 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:20:29.334  INFO 21184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:20:29.334  INFO 21184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:20:30.609  INFO 21184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:20:30.616  INFO 21184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:20:30.616  INFO 21184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:20:30.689  INFO 21184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:20:30.689  INFO 21184 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1354 ms
+2022-07-15 14:20:31.757  INFO 21184 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:20:31.908  INFO 21184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:20:31.943  INFO 21184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:20:31.953  INFO 21184 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.216 seconds (JVM running for 4.361)
+2022-07-15 14:21:14.397  INFO 21184 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:21:20.141  INFO 27160 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 27160 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:21:20.145  INFO 27160 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:21:20.199  INFO 27160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:21:20.199  INFO 27160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:21:21.471  INFO 27160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:21:21.478  INFO 27160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:21:21.478  INFO 27160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:21:21.553  INFO 27160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:21:21.553  INFO 27160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1353 ms
+2022-07-15 14:21:22.625  INFO 27160 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:21:22.775  INFO 27160 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:21:22.809  INFO 27160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:21:22.818  INFO 27160 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.192 seconds (JVM running for 4.579)
+2022-07-15 14:21:35.307  INFO 27160 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:21:35.308  INFO 27160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:21:35.308  INFO 27160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-15 14:21:50.562  INFO 27160 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:21:55.880  INFO 17948 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 17948 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:21:55.883  INFO 17948 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:21:55.926  INFO 17948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:21:55.927  INFO 17948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:21:57.233  INFO 17948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:21:57.243  INFO 17948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:21:57.244  INFO 17948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:21:57.324  INFO 17948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:21:57.324  INFO 17948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1397 ms
+2022-07-15 14:21:58.390  INFO 17948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:21:58.538  INFO 17948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:21:58.570  INFO 17948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:21:58.581  INFO 17948 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.135 seconds (JVM running for 4.382)
+2022-07-15 14:22:32.901  INFO 17948 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:22:32.901  INFO 17948 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:22:32.902  INFO 17948 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:22:50.373  INFO 17948 --- [http-nio-8080-exec-4] w.x.m.common.GlobalExceptionHandler      : 全局异常捕获，异常信息为:
+
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('/' (code 47)): maybe a (non-standard) comment? (not recognized as one since Feature 'ALLOW_COMMENTS' not enabled for parser); nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('/' (code 47)): maybe a (non-standard) comment? (not recognized as one since Feature 'ALLOW_COMMENTS' not enabled for parser)
+ at [Source: (PushbackInputStream); line: 2, column: 6]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:389) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:342) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) [tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('/' (code 47)): maybe a (non-standard) comment? (not recognized as one since Feature 'ALLOW_COMMENTS' not enabled for parser)
+ at [Source: (PushbackInputStream); line: 2, column: 6]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2337) ~[jackson-core-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:710) ~[jackson-core-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:635) ~[jackson-core-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipComment(UTF8StreamJsonParser.java:3165) ~[jackson-core-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd2(UTF8StreamJsonParser.java:3045) ~[jackson-core-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd(UTF8StreamJsonParser.java:3021) ~[jackson-core-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:724) ~[jackson-core-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:191) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4593) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3601) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:378) ~[spring-web-5.3.9.jar:5.3.9]
+	... 51 common frames omitted
+
+2022-07-15 14:22:50.406  WARN 17948 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('/' (code 47)): maybe a (non-standard) comment? (not recognized as one since Feature 'ALLOW_COMMENTS' not enabled for parser); nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('/' (code 47)): maybe a (non-standard) comment? (not recognized as one since Feature 'ALLOW_COMMENTS' not enabled for parser)
+ at [Source: (PushbackInputStream); line: 2, column: 6]]
+2022-07-15 14:23:57.656  INFO 17948 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:24:01.299  INFO 19488 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 19488 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:24:01.301  INFO 19488 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:24:01.346  INFO 19488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:24:01.347  INFO 19488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:24:02.468  INFO 19488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:24:02.476  INFO 19488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:24:02.476  INFO 19488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:24:02.579  INFO 19488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:24:02.579  INFO 19488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1232 ms
+2022-07-15 14:24:03.758  INFO 19488 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:24:03.901  INFO 19488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:24:03.936  INFO 19488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:24:03.946  INFO 19488 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.098 seconds (JVM running for 4.271)
+2022-07-15 14:27:12.369  INFO 19488 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:27:12.369  INFO 19488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:27:12.370  INFO 19488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:39:59.380  INFO 19488 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:41:07.587  INFO 18056 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 18056 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:41:07.589  INFO 18056 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:41:07.630  INFO 18056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:41:07.630  INFO 18056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:41:08.559  INFO 18056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:41:08.567  INFO 18056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:41:08.567  INFO 18056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:41:08.644  INFO 18056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:41:08.644  INFO 18056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1013 ms
+2022-07-15 14:41:09.746  INFO 18056 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:41:09.888  INFO 18056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:41:09.920  INFO 18056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:41:09.929  INFO 18056 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 2.774 seconds (JVM running for 3.811)
+2022-07-15 14:41:13.505  INFO 18056 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:41:13.506  INFO 18056 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:41:13.506  INFO 18056 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-15 14:41:48.432  INFO 18056 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:41:51.797  INFO 19900 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 19900 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:41:51.802  INFO 19900 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:41:51.903  INFO 19900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:41:51.903  INFO 19900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:41:53.423  INFO 19900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:41:53.436  INFO 19900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:41:53.437  INFO 19900 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:41:53.567  INFO 19900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:41:53.568  INFO 19900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1664 ms
+2022-07-15 14:41:54.817  INFO 19900 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:41:55.008  INFO 19900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:41:55.046  INFO 19900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:41:55.057  INFO 19900 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.913 seconds (JVM running for 5.432)
+2022-07-15 14:42:01.811  INFO 19900 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:42:01.811  INFO 19900 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:42:01.812  INFO 19900 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:45:09.510  INFO 19900 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:45:13.126  INFO 13320 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 13320 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:45:13.136  INFO 13320 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:45:13.263  INFO 13320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:45:13.265  INFO 13320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:45:14.932  INFO 13320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:45:14.950  INFO 13320 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:45:14.951  INFO 13320 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:45:15.017  INFO 13320 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:45:15.018  INFO 13320 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1752 ms
+2022-07-15 14:45:16.217  INFO 13320 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:45:16.365  INFO 13320 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:45:16.397  INFO 13320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:45:16.406  INFO 13320 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.915 seconds (JVM running for 5.197)
+2022-07-15 14:45:22.928  INFO 13320 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:45:22.929  INFO 13320 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:45:22.929  INFO 13320 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-15 14:45:50.123  INFO 13320 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:45:55.456  INFO 20548 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 20548 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:45:55.459  INFO 20548 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:45:55.504  INFO 20548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:45:55.505  INFO 20548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:45:56.696  INFO 20548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:45:56.703  INFO 20548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:45:56.703  INFO 20548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:45:56.781  INFO 20548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:45:56.781  INFO 20548 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2022-07-15 14:45:57.835  INFO 20548 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:45:57.983  INFO 20548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:45:58.015  INFO 20548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:45:58.024  INFO 20548 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.03 seconds (JVM running for 4.061)
+2022-07-15 14:46:04.112  INFO 20548 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:46:04.112  INFO 20548 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:46:04.113  INFO 20548 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:46:37.724  INFO 20548 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:46:43.795  INFO 19696 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 19696 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:46:43.798  INFO 19696 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:46:43.906  INFO 19696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:46:43.906  INFO 19696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:46:45.720  INFO 17284 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 17284 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:46:45.723  INFO 17284 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:46:45.788  INFO 17284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:46:45.788  INFO 17284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:46:46.040  INFO 19696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:46:46.057  INFO 19696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:46:46.057  INFO 19696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:46:46.190  INFO 19696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:46:46.191  INFO 19696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2284 ms
+2022-07-15 14:46:47.293  INFO 17284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:46:47.316  INFO 17284 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:46:47.316  INFO 17284 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:46:47.398  INFO 17284 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:46:47.398  INFO 17284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1609 ms
+2022-07-15 14:46:47.818  INFO 19696 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:46:48.014  INFO 19696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:46:48.055  INFO 19696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:46:48.066  INFO 19696 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 4.903 seconds (JVM running for 6.146)
+2022-07-15 14:46:48.604  INFO 17284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:46:48.765  WARN 17284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-15 14:46:48.791  WARN 17284 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-07-15 14:46:48.795  INFO 17284 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:46:48.798  INFO 17284 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:46:48.815  INFO 17284 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:46:48.831 ERROR 17284 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-07-15 14:47:06.946  INFO 19696 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:47:06.946  INFO 19696 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:47:06.947  INFO 19696 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:47:40.870  INFO 19696 --- [Thread-15] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:47:41.047  INFO 19696 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 19696 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:47:41.047  INFO 19696 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:47:41.397  INFO 19696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:47:41.398  INFO 19696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:47:41.398  INFO 19696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:47:41.417  INFO 19696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:47:41.417  INFO 19696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 367 ms
+2022-07-15 14:47:42.004  INFO 19696 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:47:42.060  INFO 19696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:47:42.076  INFO 19696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:47:42.080  INFO 19696 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 1.067 seconds (JVM running for 60.16)
+2022-07-15 14:47:42.082  INFO 19696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:47:43.764  INFO 19696 --- [Thread-21] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:47:43.940  INFO 19696 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 19696 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:47:43.940  INFO 19696 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:47:44.194  INFO 19696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:47:44.195  INFO 19696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:47:44.195  INFO 19696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:47:44.208  INFO 19696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:47:44.208  INFO 19696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 264 ms
+2022-07-15 14:47:44.639  INFO 19696 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:47:44.706  INFO 19696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:47:44.722  INFO 19696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:47:44.726  INFO 19696 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 0.817 seconds (JVM running for 62.806)
+2022-07-15 14:47:44.728  INFO 19696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:48:02.870  INFO 19696 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:48:08.292  INFO 18092 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 18092 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:48:08.294  INFO 18092 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:48:08.341  INFO 18092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:48:08.341  INFO 18092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:48:09.523  INFO 18092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:48:09.533  INFO 18092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:48:09.533  INFO 18092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:48:09.616  INFO 18092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:48:09.616  INFO 18092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1274 ms
+2022-07-15 14:48:10.712  INFO 18092 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:48:10.863  INFO 18092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:48:10.900  INFO 18092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:48:10.910  INFO 18092 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.136 seconds (JVM running for 4.108)
+2022-07-15 14:48:15.084  INFO 18092 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:48:15.084  INFO 18092 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:48:15.085  INFO 18092 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:48:57.308  INFO 18092 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:49:03.090  INFO 17532 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 17532 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:49:03.092  INFO 17532 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:49:03.142  INFO 17532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:49:03.142  INFO 17532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:49:04.370  INFO 17532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:49:04.378  INFO 17532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:49:04.378  INFO 17532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:49:04.449  INFO 17532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:49:04.449  INFO 17532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1306 ms
+2022-07-15 14:49:05.511  INFO 17532 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:49:05.660  INFO 17532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:49:05.691  INFO 17532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:49:05.701  INFO 17532 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.115 seconds (JVM running for 4.212)
+2022-07-15 14:49:12.260  INFO 17532 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:49:12.261  INFO 17532 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:49:12.261  INFO 17532 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-15 14:50:01.794  INFO 17532 --- [Thread-11] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:50:01.965  INFO 17532 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 17532 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:50:01.966  INFO 17532 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:50:02.229  INFO 17532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:50:02.230  INFO 17532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:50:02.230  INFO 17532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:50:02.242  INFO 17532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:50:02.243  INFO 17532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 275 ms
+2022-07-15 14:50:02.648  INFO 17532 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:50:02.709  INFO 17532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:50:02.724  INFO 17532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:50:02.728  INFO 17532 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 0.79 seconds (JVM running for 61.24)
+2022-07-15 14:50:02.730  INFO 17532 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:50:03.137  INFO 17532 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:50:06.810  INFO 26500 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 26500 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:50:06.813  INFO 26500 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:50:06.890  INFO 26500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:50:06.890  INFO 26500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:50:08.270  INFO 26500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:50:08.278  INFO 26500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:50:08.278  INFO 26500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:50:08.369  INFO 26500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:50:08.369  INFO 26500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1478 ms
+2022-07-15 14:50:09.653  INFO 26500 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:50:09.807  INFO 26500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:50:09.842  INFO 26500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:50:09.853  INFO 26500 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.842 seconds (JVM running for 5.236)
+2022-07-15 14:50:13.606  INFO 26500 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:50:13.606  INFO 26500 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:50:13.607  INFO 26500 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:54:03.381  INFO 26500 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:54:34.352  INFO 24868 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 24868 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:54:34.354  INFO 24868 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:54:34.402  INFO 24868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:54:34.402  INFO 24868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:54:35.390  INFO 24868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:54:35.397  INFO 24868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:54:35.398  INFO 24868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:54:35.471  INFO 24868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:54:35.471  INFO 24868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
+2022-07-15 14:54:36.499  INFO 24868 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:54:36.643  INFO 24868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:54:36.676  INFO 24868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:54:36.685  INFO 24868 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 2.804 seconds (JVM running for 3.869)
+2022-07-15 14:54:51.147  INFO 24868 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:54:51.147  INFO 24868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:54:51.148  INFO 24868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:56:17.214  INFO 24868 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:56:17.381  INFO 24868 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 24868 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:56:17.381  INFO 24868 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:56:17.690  INFO 24868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:56:17.691  INFO 24868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:56:17.692  INFO 24868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:56:17.709  INFO 24868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:56:17.709  INFO 24868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 325 ms
+2022-07-15 14:56:18.249  INFO 24868 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:56:18.315  INFO 24868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:56:18.331  INFO 24868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:56:18.335  INFO 24868 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 0.983 seconds (JVM running for 105.52)
+2022-07-15 14:56:18.338  INFO 24868 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:56:20.023  INFO 24868 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:56:20.179  INFO 24868 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 24868 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:56:20.179  INFO 24868 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:56:20.413  INFO 24868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:56:20.413  INFO 24868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:56:20.414  INFO 24868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:56:20.427  INFO 24868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:56:20.427  INFO 24868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 245 ms
+2022-07-15 14:56:20.841  INFO 24868 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:56:20.885  INFO 24868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:56:20.896  INFO 24868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:56:20.900  INFO 24868 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 0.748 seconds (JVM running for 108.085)
+2022-07-15 14:56:20.902  INFO 24868 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:56:22.386  INFO 24868 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:56:26.087  INFO 4184 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 4184 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:56:26.090  INFO 4184 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:56:26.135  INFO 4184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:56:26.135  INFO 4184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:56:27.129  INFO 4184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:56:27.136  INFO 4184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:56:27.137  INFO 4184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:56:27.211  INFO 4184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:56:27.211  INFO 4184 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1076 ms
+2022-07-15 14:56:28.295  INFO 4184 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:56:28.458  INFO 4184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:56:28.496  INFO 4184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:56:28.506  INFO 4184 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 2.899 seconds (JVM running for 4.199)
+2022-07-15 14:56:33.677  INFO 4184 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:56:33.677  INFO 4184 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:56:33.678  INFO 4184 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:57:01.795  INFO 4184 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:57:07.436  INFO 26668 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 26668 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:57:07.438  INFO 26668 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:57:07.483  INFO 26668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:57:07.483  INFO 26668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:57:08.772  INFO 26668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:57:08.780  INFO 26668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:57:08.781  INFO 26668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:57:08.867  INFO 26668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:57:08.867  INFO 26668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1383 ms
+2022-07-15 14:57:10.011  INFO 26668 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:57:10.164  INFO 26668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:57:10.197  INFO 26668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:57:10.207  INFO 26668 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.231 seconds (JVM running for 4.372)
+2022-07-15 14:57:15.248  INFO 26668 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:57:15.248  INFO 26668 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:57:15.249  INFO 26668 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:58:00.123  INFO 26668 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:58:06.084  INFO 26216 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 26216 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:58:06.088  INFO 26216 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:58:06.177  INFO 26216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:58:06.177  INFO 26216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:58:07.981  INFO 18488 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 18488 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:58:07.984  INFO 18488 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:58:08.048  INFO 18488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:58:08.049  INFO 18488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:58:08.268  INFO 26216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:58:08.280  INFO 26216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:58:08.280  INFO 26216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:58:08.388  INFO 26216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:58:08.389  INFO 26216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2211 ms
+2022-07-15 14:58:09.505  INFO 18488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:58:09.514  INFO 18488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:58:09.514  INFO 18488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:58:09.620  INFO 18488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:58:09.621  INFO 18488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1571 ms
+2022-07-15 14:58:10.050  INFO 26216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:58:10.255  INFO 26216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:58:10.294  INFO 26216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:58:10.306  INFO 26216 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 4.857 seconds (JVM running for 6.327)
+2022-07-15 14:58:10.976  INFO 18488 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:58:11.151  WARN 18488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-15 14:58:11.176  WARN 18488 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-07-15 14:58:11.180  INFO 18488 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:58:11.182  INFO 18488 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 14:58:11.201  INFO 18488 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 14:58:11.219 ERROR 18488 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-07-15 14:58:21.112  INFO 26216 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:58:21.112  INFO 26216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:58:21.113  INFO 26216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:58:35.678  INFO 26216 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:58:35.868  INFO 26216 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 26216 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:58:35.868  INFO 26216 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:58:36.192  INFO 26216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:58:36.192  INFO 26216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:58:36.192  INFO 26216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:58:36.204  INFO 26216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:58:36.204  INFO 26216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 333 ms
+2022-07-15 14:58:36.612  INFO 26216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:58:36.663  INFO 26216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:58:36.675  INFO 26216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:58:36.679  INFO 26216 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 0.839 seconds (JVM running for 32.699)
+2022-07-15 14:58:36.681  INFO 26216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 14:58:43.198  INFO 26216 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:58:43.200  INFO 26216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:58:43.201  INFO 26216 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 14:59:18.278  INFO 26216 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 14:59:22.088  INFO 25660 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 25660 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 14:59:22.094  INFO 25660 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 14:59:22.196  INFO 25660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 14:59:22.197  INFO 25660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 14:59:23.899  INFO 25660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 14:59:23.907  INFO 25660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 14:59:23.908  INFO 25660 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 14:59:23.981  INFO 25660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 14:59:23.981  INFO 25660 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1783 ms
+2022-07-15 14:59:25.218  INFO 25660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 14:59:25.364  INFO 25660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 14:59:25.396  INFO 25660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 14:59:25.407  INFO 25660 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.816 seconds (JVM running for 5.162)
+2022-07-15 14:59:35.864  INFO 25660 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 14:59:35.864  INFO 25660 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 14:59:35.865  INFO 25660 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 15:00:54.695  INFO 25660 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 15:01:00.751  INFO 10036 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 10036 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 15:01:00.755  INFO 10036 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 15:01:00.819  INFO 10036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 15:01:00.820  INFO 10036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 15:01:02.260  INFO 10036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 15:01:02.278  INFO 10036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 15:01:02.278  INFO 10036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 15:01:02.351  INFO 10036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 15:01:02.351  INFO 10036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1530 ms
+2022-07-15 15:01:03.571  INFO 10036 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 15:01:03.753  INFO 10036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 15:01:03.795  INFO 10036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 15:01:03.805  INFO 10036 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.641 seconds (JVM running for 4.745)
+2022-07-15 15:01:14.073  INFO 10036 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 15:01:14.074  INFO 10036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 15:01:14.074  INFO 10036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-15 15:02:08.100  INFO 10036 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 15:02:13.680  INFO 22732 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 22732 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 15:02:13.682  INFO 22732 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 15:02:13.729  INFO 22732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 15:02:13.729  INFO 22732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 15:02:14.981  INFO 22732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 15:02:14.988  INFO 22732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 15:02:14.989  INFO 22732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 15:02:15.064  INFO 22732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 15:02:15.064  INFO 22732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1334 ms
+2022-07-15 15:02:16.141  INFO 22732 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 15:02:16.286  INFO 22732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 15:02:16.318  INFO 22732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 15:02:16.327  INFO 22732 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 3.158 seconds (JVM running for 4.121)
+2022-07-15 15:02:28.474  INFO 22732 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 15:02:28.474  INFO 22732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 15:02:28.475  INFO 22732 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 15:08:01.964  INFO 22732 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 15:08:11.152  INFO 7252 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 7252 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 15:08:11.155  INFO 7252 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 15:08:11.247  INFO 7252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 15:08:11.248  INFO 7252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 15:08:13.303  INFO 7252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 15:08:13.312  INFO 7252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 15:08:13.312  INFO 7252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 15:08:13.423  INFO 7252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 15:08:13.423  INFO 7252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2175 ms
+2022-07-15 15:08:14.895  INFO 7252 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 15:08:15.106  INFO 7252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 15:08:15.148  INFO 7252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 15:08:15.159  INFO 7252 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 4.732 seconds (JVM running for 6.361)
+2022-07-15 15:08:19.538  INFO 7252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 15:08:19.538  INFO 7252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 15:08:19.539  INFO 7252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 15:11:16.375  INFO 7252 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 15:11:16.559  INFO 7252 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 7252 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 15:11:16.559  INFO 7252 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 15:11:17.070  INFO 7252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 15:11:17.071  INFO 7252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 15:11:17.071  INFO 7252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 15:11:17.085  INFO 7252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 15:11:17.085  INFO 7252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 521 ms
+2022-07-15 15:11:17.588  INFO 7252 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 15:11:17.650  INFO 7252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 15:11:17.663  INFO 7252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 15:11:17.667  INFO 7252 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 1.15 seconds (JVM running for 188.87)
+2022-07-15 15:11:17.669  INFO 7252 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 15:11:19.369  INFO 7252 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2022-07-15 15:11:19.515  INFO 7252 --- [restartedMain] work.xingbili.mockserver.Application     : Starting Application using Java 1.8.0_65 on JJKJ-0199 with PID 7252 (D:\personal\java-pro\java-accumulate\mock-server\target\classes started by xinghuolin in D:\personal\java-pro\java-accumulate)
+2022-07-15 15:11:19.515  INFO 7252 --- [restartedMain] work.xingbili.mockserver.Application     : No active profile set, falling back to default profiles: default
+2022-07-15 15:11:19.854  INFO 7252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 15:11:19.854  INFO 7252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 15:11:19.855  INFO 7252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-07-15 15:11:19.867  INFO 7252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 15:11:19.867  INFO 7252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 349 ms
+2022-07-15 15:11:20.311  INFO 7252 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-15 15:11:20.365  INFO 7252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 15:11:20.378  INFO 7252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 15:11:20.383  INFO 7252 --- [restartedMain] work.xingbili.mockserver.Application     : Started Application in 0.894 seconds (JVM running for 191.586)
+2022-07-15 15:11:20.384  INFO 7252 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-15 15:11:23.470  INFO 7252 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-15 15:11:23.471  INFO 7252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-15 15:11:23.472  INFO 7252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-15 17:59:13.009  INFO 7252 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="work.xingbili.mapper.UserOrgMapper">
+
+	
+	<!-- 根据id表全字段更新 -->
+	<update id="updateByIdWithOptimistiLock" parameterType="work.xingbili.entity.UserOrg">
+		UPDATE auth_user_org
+		set 
+		 id = #{id},
+		 user_id = #{userId},
+		 org_id = #{orgId},
+		 use_flag = #{useFlag},
+		 create_user = #{createUser},
+		 create_date = #{createDate},
+		 update_user = #{updateUser},
+		 update_date = #{updateDate},
+		version = #{version} + 1 
+		WHERE id = #{id, jdbcType=BIGINT} AND version = #{version}
+	</update>
+    <select id="selectBankUserPage" resultType="work.xingbili.dto.BankUserPageDto">
+		select u.id,u.user_name,u.mobile_phone,u.user_no,u.status,u.email,bu.is_admin,bu.is_cust_manager,
+			   uo.use_flag,uo.org_id,u.create_user,u.create_date,u.update_date,u.update_user
+		from auth_user_org uo
+		left join auth_user u
+		on uo.user_id = u.id
+		left join auth_bank_user bu
+		on bu.user_id = uo.user_id
+			${ew.customSqlSegment}
+	</select>
+	<select id="selectCorpUserPage" resultType="work.xingbili.dto.CorpUserPageDto">
+		select u.id,u.user_name,u.mobile_phone,u.user_no,u.status,u.email,cu.identity_flag,
+			   uo.use_flag,uo.org_id,u.create_user,u.create_date,u.update_date,u.update_user,cu.ukey_no
+		from auth_user_org uo
+				 left join auth_user u
+						   on uo.user_id = u.id
+				 left join auth_corp_user cu
+						   on cu.user_id = uo.user_id
+			${ew.customSqlSegment}
+	</select>
+
+	<select id="getDetailById" resultType="work.xingbili.dto.CorpUserPageDto">
+		select u.id,u.user_name,u.mobile_phone,u.user_no,u.status,u.email,cu.identity_flag,
+			   uo.use_flag,uo.org_id,u.create_user,u.create_date,u.update_date,u.update_user,cu.ukey_no
+		from auth_user_org uo
+				 left join auth_user u
+						   on uo.user_id = u.id
+				 left join auth_corp_user cu
+						   on cu.user_id = uo.user_id
+			${ew.customSqlSegment}
+	</select>
+</mapper>
