@@ -15,17 +15,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 /**
  * @author xinghuolin
- * @date 2021/12/30 8:42
  */
-@Data
-@AllArgsConstructor
-class Body{
-    Integer age;
-    String hand;
-    String head;
-}
 public class FindMaxCount {
     public static String loadFile(String path) {
         try {
@@ -52,4 +45,16 @@ public class FindMaxCount {
         List<Integer> ages = numbers.stream().distinct().map(Body::getAge).collect(Collectors.toList());
         System.out.println(ages.toString());
     }
+}
+
+/**
+ * @author xinghuolin
+ * @date 2021/12/30 8:42
+ */
+@Data
+@AllArgsConstructor
+class Body{
+    Integer age;
+    String hand;
+    String head;
 }

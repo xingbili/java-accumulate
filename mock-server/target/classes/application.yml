@@ -16,7 +16,7 @@ mybatis:
 
 logging:
   file:
-    name: log/log.log   # 输出日志文件目录（在项目根目录）
+    name: /log/log.log   # 输出日志文件目录（在项目根目录）
   level:
     root: info
     wuhobin: debug

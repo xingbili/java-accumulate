@@ -13,6 +13,7 @@ import cn.smallbun.screw.core.process.ProcessConfig;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
+import java.util.Collections;
 import javax.sql.DataSource;
 import java.util.Arrays;
 import java.util.List;
@@ -28,9 +29,9 @@ public class GeneratorDBDocument {
         // 数据源配置
         HikariConfig hikariConfig = new HikariConfig();
         hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        hikariConfig.setJdbcUrl("jdbc:mysql://10.30.4.53:3306/pvbank_db_dev?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
-        hikariConfig.setUsername("root");
-        hikariConfig.setPassword("root");
+        hikariConfig.setJdbcUrl("jdbc:mysql://192.168.221.116:30234/tybank_idsp_idms?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
+        hikariConfig.setUsername("menhu");
+        hikariConfig.setPassword("menhu123");
         // 设置可以获取tables remarks信息
         hikariConfig.addDataSourceProperty("useInformationSchema", "true");
         hikariConfig.setMinimumIdle(2);
@@ -49,7 +50,7 @@ public class GeneratorDBDocument {
                 .produceType(EngineTemplateType.freemarker).build();
 
         // 忽略表名
-        List<String> ignoreTableName = Arrays.asList("test");
+        List<String> ignoreTableName = Collections.singletonList("test");
         // 忽略表前缀
         List<String> ignorePrefix = Arrays.asList("test_", "test");
         // 忽略表后缀

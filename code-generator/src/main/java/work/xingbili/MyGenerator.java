@@ -69,7 +69,7 @@ public class MyGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://129.211.82.202:3306/code_demo?useUnicode=true&serverTimezone=GMT&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://192.168.91.3:3306/db_test?useUnicode=true&serverTimezone=GMT&useSSL=false&characterEncoding=utf8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("123456");
@@ -187,4 +187,3 @@ public class MyGenerator {
         return org.springframework.util.StringUtils.replace(moduleName, ".", "/");
     }
 }
-

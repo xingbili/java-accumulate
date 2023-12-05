@@ -2,7 +2,7 @@ logging:
   level:
     root: info
   file:
-    path: ./log
+    path: /log
     config: classpath:/logback-dev.xml
 
 developer:
