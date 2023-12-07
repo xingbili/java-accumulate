@@ -1,4 +1,4 @@
-/*
+/**
  * 版权信息: © 聚均科技
  */
 package work.xingbili.config;

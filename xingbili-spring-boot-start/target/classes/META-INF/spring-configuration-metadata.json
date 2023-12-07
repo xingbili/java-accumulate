@@ -10,7 +10,8 @@
     {
       "name": "simplebean.id",
       "type": "java.lang.Integer",
-      "sourceType": "com.xingbili.bootstarter.dto.SimpleBean"
+      "sourceType": "com.xingbili.bootstarter.dto.SimpleBean",
+      "defaultValue": 0
     },
     {
       "name": "simplebean.name",

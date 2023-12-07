@@ -1,4 +1,5 @@
 // 订单优惠规则 须与kmodule.xml的package一致
+package work.xingbili.test
 import work.xingbili.entity.Order
 import java.math.BigDecimal
 

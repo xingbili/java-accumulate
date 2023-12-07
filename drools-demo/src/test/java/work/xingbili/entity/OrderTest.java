@@ -18,6 +18,24 @@ class OrderTest {
 
   @Autowired
   private KieContainer kieContainer;
+
+  @Test
+  public void testKModule(){
+//    test-rule
+
+    KieServices kieServices = KieServices.Factory.get();
+    // 获取Kie容器对象 默认容器对象
+    KieContainer kieContainer = kieServices.newKieClasspathContainer();
+    // 从Kie容器对象中获取会话对象（默认session对象
+    KieSession kieSession = kieContainer.newKieSession();
+
+    Order order = new Order();
+    order.setOriginalPrice(BigDecimal.valueOf(180));
+    // 将order对象插入工作内存
+    kieSession.insert(order);
+
+  }
+
   @Test
   public void test() {
     // 从Kie容器对象中获取会话对象（默认session对象

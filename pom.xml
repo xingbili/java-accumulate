@@ -18,7 +18,7 @@
         <module>person-demo</module>
         <module>mybatis-plus-example</module>
         <module>xingbili-spring-boot-start</module>
-        <module>drules-demo</module>
+        <module>drools-demo</module>
     </modules>
 
     <parent>
