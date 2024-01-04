@@ -1,0 +1,85 @@
+
+f	java:S1165"LRename this field "A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åñ€Àúÿÿÿÿ
+f	java:S116:"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¹Í÷øÿÿÿÿ
+f	java:S116?"LRename this field "B" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÀÉÿøÿÿÿÿ
+g	java:S116C"MRename this field "B1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ°¼éýÿÿÿÿ
+g	java:S116G"MRename this field "A1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¢ç©ýÿÿÿÿ
+h	java:S116M"NRename this field "B11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àƒþ»øÿÿÿÿ
+i	java:S116R"TRename this field "NOT_FOUND" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÀù¦
+7
+java:S11702"!Make this final field static too.(—«ìÂ
+7
+java:S1170R"!Make this final field static too.(ÁÀù¦
+m
+java:S1450#"WRemove the "consumer" field and declare it as a local variable in the relevant methods.(·ïý×
+M
+java:S16115"2Remove the parentheses around the "data" parameter(Åñ€Àúÿÿÿÿ
+G
+java:S16025",Remove useless curly braces around statement(Åñ€Àúÿÿÿÿ
+M
+java:S1611:"2Remove the parentheses around the "data" parameter(á¹Í÷øÿÿÿÿ
+G
+java:S1602:",Remove useless curly braces around statement(á¹Í÷øÿÿÿÿ
+M
+java:S1611?"2Remove the parentheses around the "data" parameter(ìÀÉÿøÿÿÿÿ
+M
+java:S1611C"2Remove the parentheses around the "data" parameter(Õ°¼éýÿÿÿÿ
+M
+java:S1611G"2Remove the parentheses around the "data" parameter(¶¢ç©ýÿÿÿÿ
+G
+java:S1602G",Remove useless curly braces around statement(¶¢ç©ýÿÿÿÿ
+M
+java:S1611M"2Remove the parentheses around the "data" parameter(àƒþ»øÿÿÿÿ
+G
+java:S1602M",Remove useless curly braces around statement(àƒþ»øÿÿÿÿ
+H
+java:S1611R"2Remove the parentheses around the "data" parameter(ÁÀù¦
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+Q	java:S125j"<This block of commented-out lines of code should be removed.(°¦Å×
+F
+java:S1172"+Remove this unused method parameter "data".(¿ùÆ›ûÿÿÿÿ
+R	java:S125€"<This block of commented-out lines of code should be removed.(ÿ’Þ
+B
+java:S1068#",Remove this unused "consumer" private field.(·ïý×
+f	java:S1165"LRename this field "A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åñ€Àúÿÿÿÿ
+f	java:S116:"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¹Í÷øÿÿÿÿ
+f	java:S116?"LRename this field "B" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÀÉÿøÿÿÿÿ
+g	java:S116C"MRename this field "B1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ°¼éýÿÿÿÿ
+g	java:S116G"MRename this field "A1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¢ç©ýÿÿÿÿ
+h	java:S116M"NRename this field "B11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àƒþ»øÿÿÿÿ
+i	java:S116R"TRename this field "NOT_FOUND" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÀù¦
+7
+java:S11702"!Make this final field static too.(—«ìÂ
+7
+java:S1170R"!Make this final field static too.(ÁÀù¦
+m
+java:S1450#"WRemove the "consumer" field and declare it as a local variable in the relevant methods.(·ïý×
+M
+java:S16115"2Remove the parentheses around the "data" parameter(Åñ€Àúÿÿÿÿ
+G
+java:S16025",Remove useless curly braces around statement(Åñ€Àúÿÿÿÿ
+M
+java:S1611:"2Remove the parentheses around the "data" parameter(á¹Í÷øÿÿÿÿ
+G
+java:S1602:",Remove useless curly braces around statement(á¹Í÷øÿÿÿÿ
+M
+java:S1611?"2Remove the parentheses around the "data" parameter(ìÀÉÿøÿÿÿÿ
+M
+java:S1611C"2Remove the parentheses around the "data" parameter(Õ°¼éýÿÿÿÿ
+M
+java:S1611G"2Remove the parentheses around the "data" parameter(¶¢ç©ýÿÿÿÿ
+G
+java:S1602G",Remove useless curly braces around statement(¶¢ç©ýÿÿÿÿ
+M
+java:S1611M"2Remove the parentheses around the "data" parameter(àƒþ»øÿÿÿÿ
+G
+java:S1602M",Remove useless curly braces around statement(àƒþ»øÿÿÿÿ
+H
+java:S1611R"2Remove the parentheses around the "data" parameter(ÁÀù¦
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+Q	java:S125j"<This block of commented-out lines of code should be removed.(°¦Å×
+F
+java:S1172"+Remove this unused method parameter "data".(¿ùÆ›ûÿÿÿÿ
+R	java:S125€"<This block of commented-out lines of code should be removed.(ÿ’Þ
+B
+java:S1068#",Remove this unused "consumer" private field.(·ïý×

@@ -1,8 +1,10 @@
 package work.xingbili.persondemo;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 /**
  * @author xinghuolin
@@ -19,6 +21,13 @@ public class PersonDemoApplication {
 //        log.debug("debug");
 //        log.error("error");
 //        log.trace("trace");
+    }
+
+
+    @Bean
+    CommandLineRunner lookupTestService( ) {
+        System.out.println("i am back");
+        return null;
     }
 
 }

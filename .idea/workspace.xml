@@ -7,7 +7,7 @@
     <list default="true" id="993cf7e8-d047-492e-b13c-cfcdb1722e63" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="true" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CompilerWorkspaceConfiguration">
@@ -17,8 +17,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="UML Gantt" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -34,82 +38,234 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/java-accumulate.iml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mock-server/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mock-server/src/main/java/work/xingbili/mockserver/Application.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mock-server/src/main/java/work/xingbili/mockserver/controller/MockServerController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mock-server/src/main/java/work/xingbili/mockserver/controller/TestController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mock-server/src/main/java/work/xingbili/mockserver/service/ITbApiInfoService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mock-server/src/main/java/work/xingbili/mockserver/service/impl/TbApiInfoServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mock-server/src/main/java/work/xingbili/mockserver/service/impl/TbApiResponseServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mock-server/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis-plus-example/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis-plus-example/src/main/java/work/xingbili/MyBatisApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis-plus-example/src/main/java/work/xingbili/config/DBConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis-plus-example/src/main/java/work/xingbili/test/MybatisSampleFromConfigClass.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis-plus-example/src/main/java/work/xingbili/test/MybatisSampleFromConfigFile.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis-plus-example/src/main/java/work/xingbili/test/OriSample.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis-plus-example/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis-plus-example/src/main/resources/mybatis-config.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/datamasking/DataMaskConfiguration.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/datamasking/DataMasking.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/datamasking/DataMaskingAnnotationIntrospector.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/datamasking/DataMaskingOperation.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/datamasking/DataMaskingSerializer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/DefaultParentHandler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/Handler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/HandlerDispatcher.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/HandlerDispatcherImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/ParentHandler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/annotation/Mapped.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/annotation/Parent.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/collection/TreeNode.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/data/Result.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/example/HandlerExecutorCompositeAdvDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/msghandler/util/Logger.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/PersonDemoApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/controller/PropertyController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/designpattern/adapter/AppTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/designpattern/builder/AppTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/java8/streamdemo/StreamDemo01.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/thread/A_001.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/person-demo/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xingbili-spring-boot-start/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xingbili-spring-boot-start/src/main/java/com/xingbili/bootstarter/config/ConfigMarker.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xingbili-spring-boot-start/src/main/java/com/xingbili/bootstarter/config/EnableXXX.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xingbili-spring-boot-start/src/main/java/com/xingbili/bootstarter/config/MyAutoConfiguration.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xingbili-spring-boot-start/src/main/java/com/xingbili/bootstarter/dto/SimpleBean.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xingbili-spring-boot-start/src/main/resources/META-INF/spring.factories" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="21Uyje7POKmmyfbPDQN5iOrDSB0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mock-server/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DroolsApplication.executor": "Run",
+    "Application.PersonDemoApplication.executor": "Run",
+    "Application.TestIncrID.executor": "Run",
+    "Application.TestIncrID2.executor": "Run",
+    "Maven.java-accumulate [clean,install].executor": "Run",
+    "Maven.mock-server [clean,install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/vourch-split",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ],
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
+    ]
+  }
+}]]></component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\xingbili-parent\mock-server\src\main\resources" />
-      <recent name="D:\study\xingbili-parent\mock-server\src\main\java\work\xingbili\mockserver\service" />
-      <recent name="D:\study\xingbili-parent\mock-server\src\main\java\work\xingbili\mockserver\mapper" />
-      <recent name="D:\study\xingbili-parent\mock-server\src\main\java\work\xingbili\mockserver\entity" />
-      <recent name="D:\study\xingbili-parent\mock-server\src\main\java\work\xingbili\mockserver\enums" />
+      <recent name="D:\personal\java-pro\java-accumulate\person-demo\src\main\java\msghandler" />
+      <recent name="D:\personal\java-pro\java-accumulate\person-demo\src\main\java\work\xingbili\persondemo\designpattern\strategy\example\taxplus02" />
+      <recent name="D:\personal\java-pro\java-accumulate\mybatis-plus-example\src\main\java\work\xingbili\dto" />
+      <recent name="D:\personal\java-pro\java-accumulate\mybatis-plus-example\src\main\resources" />
+      <recent name="D:\personal\java-pro\java-accumulate\mybatis-plus-example\src\main\java\work\xingbili" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\personal\java-pro\java-accumulate" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="work.xingbili.persondemo.designpattern.simplefactory" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="work.xingbilin.entity" />
+      <recent name="work.xingbili.persondemo.aopdemo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="work.xingbili.persondemo.designpattern.strategy.example.taxplus02" />
+      <recent name="work.xingbili.persondemo.designpattern.strategy.example.taxplus01" />
+      <recent name="work.xingbili.persondemo.designpattern.singleton" />
+      <recent name="work.xingbili.utils" />
+      <recent name="work.xingbili.config" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Quickstart" />
-      <module name="hello-shiro" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mock-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="work.xingbili.mockserver.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xingbili-springboot" />
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle Tasks" flag="true" />
+      <visibility group="Maven Goals" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+    </myKeys>
+    <option name="myCommands">
+      <command value="mvn clean install -Dskiptests" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestIncrID2">
+    <configuration name="DroolsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work.xingbili.DroolsApplication" />
+      <module name="drools-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="work.xingbili.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="work.xingbili.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work.xingbili.persondemo.PersonDemoApplication" />
+      <module name="person-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work.xingbili.persondemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIncrID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work.xingbili.persondemo.seqid.TestIncrID" />
+      <module name="person-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work.xingbili.persondemo.seqid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIncrID2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work.xingbili.persondemo.seqid.TestIncrID2" />
+      <module name="person-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work.xingbili.persondemo.seqid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drools-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work.xingbili.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="work.xingbili.entity" />
+      <option name="MAIN_CLASS_NAME" value="work.xingbili.entity.OrderTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mock-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.xingbili.mockserver.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,19 +284,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WikiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="wiki" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="work.xingbili.wiki.WikiApplication" />
+    <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="code-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="work.xingbili.StartApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TestIncrID" />
+      <item itemvalue="Application.TestIncrID2" />
+      <item itemvalue="Application.PersonDemoApplication" />
+      <item itemvalue="Application.DroolsApplication" />
+      <item itemvalue="JUnit.OrderTest.test1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Quickstart" />
-        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.TestIncrID2" />
+        <item itemvalue="Application.TestIncrID" />
+        <item itemvalue="Application.PersonDemoApplication" />
+        <item itemvalue="Application.DroolsApplication" />
+        <item itemvalue="JUnit.OrderTest.test1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-f719d367" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
@@ -148,7 +322,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="993cf7e8-d047-492e-b13c-cfcdb1722e63" name="Default Changelist" comment="" />
       <created>1638010098017</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -171,8 +344,189 @@
       <workItem from="1639207466914" duration="3041000" />
       <workItem from="1639293386373" duration="3333000" />
       <workItem from="1639398668185" duration="294000" />
+      <workItem from="1639635126409" duration="419000" />
+      <workItem from="1639635724856" duration="264000" />
+      <workItem from="1639636047549" duration="598000" />
+      <workItem from="1639636670594" duration="649000" />
+      <workItem from="1639638502417" duration="3531000" />
+      <workItem from="1639704254079" duration="1123000" />
+      <workItem from="1639715497475" duration="326000" />
+      <workItem from="1640048223269" duration="3414000" />
+      <workItem from="1640132836212" duration="1366000" />
+      <workItem from="1640219565568" duration="3587000" />
+      <workItem from="1640350907682" duration="2014000" />
+      <workItem from="1640651207420" duration="805000" />
+      <workItem from="1640824751286" duration="1565000" />
+      <workItem from="1641044126412" duration="1530000" />
+      <workItem from="1641260622061" duration="4521000" />
+      <workItem from="1641886245122" duration="246000" />
+      <workItem from="1641886632125" duration="713000" />
+      <workItem from="1642056462334" duration="294000" />
+      <workItem from="1643261271992" duration="1332000" />
+      <workItem from="1643547430338" duration="3205000" />
+      <workItem from="1645250899398" duration="2426000" />
+      <workItem from="1645279060143" duration="65000" />
+      <workItem from="1645279186960" duration="685000" />
+      <workItem from="1645279902016" duration="563000" />
+      <workItem from="1645323427374" duration="5636000" />
+      <workItem from="1645361057299" duration="2541000" />
+      <workItem from="1645404794226" duration="155000" />
+      <workItem from="1645763392652" duration="1492000" />
+      <workItem from="1646181151378" duration="5467000" />
+      <workItem from="1647065854103" duration="5051000" />
+      <workItem from="1647217704260" duration="1169000" />
+      <workItem from="1647910690611" duration="265000" />
+      <workItem from="1651022656361" duration="2773000" />
+      <workItem from="1653615364636" duration="7446000" />
+      <workItem from="1653878994601" duration="5126000" />
+      <workItem from="1653979263726" duration="2106000" />
+      <workItem from="1655126354944" duration="762000" />
+      <workItem from="1655545274111" duration="20114000" />
+      <workItem from="1656045292719" duration="843000" />
+      <workItem from="1656049215494" duration="802000" />
+      <workItem from="1656078054876" duration="9406000" />
+      <workItem from="1656847925408" duration="693000" />
+      <workItem from="1656897737137" duration="811000" />
+      <workItem from="1657068189272" duration="2049000" />
+      <workItem from="1657777380737" duration="22000" />
+      <workItem from="1657854431679" duration="2241000" />
+      <workItem from="1657864397635" duration="5525000" />
+      <workItem from="1658128447875" duration="2361000" />
+      <workItem from="1658145431530" duration="653000" />
+      <workItem from="1658190944529" duration="5591000" />
+      <workItem from="1659016235880" duration="3467000" />
+      <workItem from="1659056812804" duration="10052000" />
+      <workItem from="1659092390144" duration="2993000" />
+      <workItem from="1659234382284" duration="11033000" />
+      <workItem from="1660820822875" duration="792000" />
+      <workItem from="1660979349742" duration="615000" />
+      <workItem from="1661134280854" duration="2040000" />
+      <workItem from="1661149106992" duration="5259000" />
+      <workItem from="1661218634829" duration="922000" />
+      <workItem from="1661301961231" duration="1308000" />
+      <workItem from="1661320723221" duration="1992000" />
+      <workItem from="1661331575865" duration="4255000" />
+      <workItem from="1661394401250" duration="23410000" />
+      <workItem from="1661586181864" duration="1007000" />
+      <workItem from="1662029661511" duration="2205000" />
+      <workItem from="1662703970648" duration="786000" />
+      <workItem from="1664114421133" duration="2654000" />
+      <workItem from="1665991834957" duration="6732000" />
+      <workItem from="1666921413573" duration="1219000" />
+      <workItem from="1669876406101" duration="2546000" />
+      <workItem from="1670305022124" duration="3064000" />
+      <workItem from="1672880291162" duration="5619000" />
+      <workItem from="1673421972188" duration="6059000" />
+      <workItem from="1673684875892" duration="448000" />
+      <workItem from="1673849300509" duration="1623000" />
+      <workItem from="1675300993853" duration="3341000" />
+      <workItem from="1675834636603" duration="3084000" />
+      <workItem from="1675838700648" duration="1695000" />
+      <workItem from="1675848701729" duration="8384000" />
+      <workItem from="1675992833015" duration="8326000" />
+      <workItem from="1676445835112" duration="2266000" />
+      <workItem from="1676509196374" duration="9774000" />
+      <workItem from="1676882147266" duration="987000" />
+      <workItem from="1677048880585" duration="6602000" />
+      <workItem from="1677466932115" duration="2113000" />
+      <workItem from="1677563777857" duration="22668000" />
+      <workItem from="1678691474931" duration="8556000" />
+      <workItem from="1678842425745" duration="6361000" />
+      <workItem from="1679363677985" duration="8419000" />
+      <workItem from="1681453795461" duration="838000" />
+      <workItem from="1689729021147" duration="7787000" />
+      <workItem from="1695107700354" duration="1099000" />
+      <workItem from="1695630868813" duration="1297000" />
+      <workItem from="1696640694562" duration="2718000" />
+      <workItem from="1696730406366" duration="3876000" />
+      <workItem from="1697523772208" duration="79000" />
+      <workItem from="1700723125332" duration="2030000" />
+      <workItem from="1701741146758" duration="29732000" />
+      <workItem from="1701927141981" duration="231000" />
+      <workItem from="1701927393356" duration="734000" />
+      <workItem from="1701928162138" duration="574000" />
+      <workItem from="1701928786335" duration="748000" />
+      <workItem from="1701929676876" duration="19098000" />
+      <workItem from="1702273670467" duration="2622000" />
+      <workItem from="1702281421170" duration="6453000" />
+      <workItem from="1702446336494" duration="1844000" />
+      <workItem from="1702514908243" duration="6933000" />
+      <workItem from="1703057862295" duration="2499000" />
     </task>
+    <task id="LOCAL-00001" summary="新增代码生成模块">
+      <created>1639637246727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639637246727</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新增了些练习代码">
+      <created>1640350974053</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640350974053</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增了些练习代码">
+      <created>1655636860548</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655636860548</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增了些练习代码">
+      <created>1657068440785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657068440785</updated>
+    </task>
+    <task id="LOCAL-00005" summary="删除没有用的">
+      <created>1701759870812</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701759870812</updated>
+    </task>
+    <task id="LOCAL-00006" summary="删除没有用的">
+      <created>1701850993571</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701850993571</updated>
+    </task>
+    <task id="LOCAL-00007" summary="删除没有用的">
+      <created>1701930254074</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701930254074</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.drools:drools-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
+    <option featureType="dependencySupport" implementationName="java:javax.validation:validation-api" />
+    <option featureType="com.intellij.configurationType" implementationName="SpringBootApplicationConfigurationType" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增代码生成模块" />
+    <MESSAGE value="新增了些练习代码" />
+    <MESSAGE value="删除没有用的" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除没有用的" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -192,7 +546,49 @@
           <line>31</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/PersonDemoApplication.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-plus-example/src/main/java/work/xingbili/test/OriSample.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-plus-example/src/main/java/work/xingbili/test/OriSample.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/testvalidate/Student.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/designpattern/simplefactory/AppTest.java</url>
+          <line>57</line>
+          <properties class="work.xingbili.persondemo.designpattern.simplefactory.AppTest" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/person-demo/src/main/java/work/xingbili/persondemo/PersonDemoApplication.java</url>
+          <line>16</line>
+          <properties class="work.xingbili.persondemo.PersonDemoApplication" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.drools.compiler.kproject.models.KieModuleModelImpl" memberName="kBases" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

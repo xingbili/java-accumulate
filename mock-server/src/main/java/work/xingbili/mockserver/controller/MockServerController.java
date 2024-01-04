@@ -15,7 +15,7 @@ import work.xingbili.mockserver.entity.TbApiInfo;
 import work.xingbili.mockserver.service.ITbApiInfoService;
 import work.xingbili.mockserver.service.ITbApiResponseService;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import java.io.BufferedReader;
 import java.io.IOException;
 

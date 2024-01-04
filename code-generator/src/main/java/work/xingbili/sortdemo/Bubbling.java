@@ -4,6 +4,8 @@
 
 package work.xingbili.sortdemo;
 
+import java.util.Arrays;
+
 /**
  * @author xinghuolin
  * @date 2023/7/19 9:42
@@ -45,7 +47,7 @@ public class Bubbling {
     int[] array = {1,4,5,6,3,8,11,29,32};
     bubbleSort(array);
 
-//    Arrays.stream(bubbleSort(array)).forEach(System.out::println);
+    Arrays.stream(bubbleSort(array)).forEach(System.out::println);
   }
 
 }

@@ -15,7 +15,7 @@ import work.xingbili.mockserver.entity.Second;
 import work.xingbili.mockserver.entity.SubItem;
 import work.xingbili.mockserver.service.ITbApiInfoService;
 
-import javax.validation.groups.Default;
+import jakarta.validation.groups.Default;
 
 /**
  * @author xinghuolin

@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "work.xingbili.dto.Person",
+      "sourceType": "work.xingbili.dto.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "work.xingbili.dto.Person"
+    },
+    {
+      "name": "person.birth-day",
+      "type": "java.util.Date",
+      "sourceType": "work.xingbili.dto.Person"
+    },
+    {
+      "name": "person.cats",
+      "type": "java.util.Map<java.lang.String,work.xingbili.dto.Cat>",
+      "sourceType": "work.xingbili.dto.Person"
+    },
+    {
+      "name": "person.child",
+      "type": "work.xingbili.dto.Child",
+      "sourceType": "work.xingbili.dto.Person"
+    },
+    {
+      "name": "person.dogs",
+      "type": "java.util.List<work.xingbili.dto.Dog>",
+      "sourceType": "work.xingbili.dto.Person"
+    },
+    {
+      "name": "person.like",
+      "type": "java.lang.Boolean",
+      "sourceType": "work.xingbili.dto.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "work.xingbili.dto.Person"
+    }
+  ],
+  "hints": []
+}

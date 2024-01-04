@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -9,21 +10,30 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mock-server" />
         <module name="person-demo" />
+        <module name="spring-series" />
+        <module name="mybatis-plus-example" />
+        <module name="code-generator" />
         <module name="hello-shiro" />
-        <module name="xingbili-springboot" />
+        <module name="drools-demo" />
+        <module name="xingbili-spring-boot-start" />
+        <module name="cloud-limit-starter" />
+        <module name="springboot3.x-demo" />
         <module name="springboot-shiro" />
-        <module name="wiki" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="code-generator" options="-parameters" />
+      <module name="drools-demo" options="-parameters" />
       <module name="hello-shiro" options="-parameters" />
       <module name="mock-server" options="-parameters" />
+      <module name="mybatis-plus-example" options="-parameters" />
       <module name="person-demo" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
-      <module name="wiki" options="-parameters" />
-      <module name="xingbili-springboot" options="-parameters" />
+      <module name="springboot3.x-demo" options="-parameters" />
+      <module name="xingbili-spring-boot-start" options="-parameters" />
     </option>
   </component>
 </project>

@@ -36,9 +36,7 @@ public class MyGenerator {
      */
     public static String scanner(String tip) {
         Scanner scanner = new Scanner(System.in);
-        StringBuilder help = new StringBuilder();
-        help.append("请输入").append(tip).append("：");
-        System.out.println(help.toString());
+        System.out.println("请输入" + tip + "：");
         if (scanner.hasNext()) {
             String ipt = scanner.next();
             if (StringUtils.isNotBlank(ipt)) {
@@ -97,7 +95,7 @@ public class MyGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输入文件名称
-                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + generatModulePath(pc.getModuleName()) + "/entity"
+                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + generateModulePath(pc.getModuleName()) + "/entity"
                         + "/" + tableInfo.getEntityName() + StringPool.DOT_JAVA;
             }
         });
@@ -107,7 +105,7 @@ public class MyGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输入文件名称
-                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + generatModulePath(pc.getModuleName()) + "/mapper"
+                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + generateModulePath(pc.getModuleName()) + "/mapper"
                         + "/" + tableInfo.getMapperName() + StringPool.DOT_JAVA;
             }
         });
@@ -126,7 +124,7 @@ public class MyGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输入文件名称
-                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + generatModulePath(pc.getModuleName()) + "/service/base"
+                return projectPath + "/" + projectName + "/src/main/java/work/xingbili/" + generateModulePath(pc.getModuleName()) + "/service/base"
                         + "/" + tableInfo.getServiceName() + StringPool.DOT_JAVA;
             }
         });
@@ -183,7 +181,7 @@ public class MyGenerator {
      * @param moduleName
      * @return
      */
-    private static String generatModulePath(String moduleName) {
+    private static String generateModulePath(String moduleName) {
         return org.springframework.util.StringUtils.replace(moduleName, ".", "/");
     }
 }

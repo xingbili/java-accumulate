@@ -1,0 +1,37 @@
+
+t
+java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ôß…¿úÿÿÿÿ
+n	java:S135)"YReduce the total number of break and continue statements in this loop to use at most one.(¼ßğ¥
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Šèşÿÿÿÿ
+v
+java:S1488{"[Immediately return this expression instead of assigning it to the temporary variable "key".(Ş§ãıÿÿÿÿ
+B
+java:S3011>",This accessibility update should be removed.(˜ÂÓ˜
+A
+java:S1602K",Remove useless curly braces around statement(ĞÛór
+B
+java:S3011S",This accessibility update should be removed.(˜ÂÓ˜
+G
+java:S3011c",This accessibility update should be removed.(ãÏ½òÿÿÿÿÿ
+R
+java:S1611"6Remove the parentheses around the "treeNode" parameter(­Šèşÿÿÿÿ
+G
+java:S1905"+Remove this unnecessary cast to "NodeData".(äÓµûÿÿÿÿ
+t
+java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ôß…¿úÿÿÿÿ
+n	java:S135)"YReduce the total number of break and continue statements in this loop to use at most one.(¼ßğ¥
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Šèşÿÿÿÿ
+v
+java:S1488{"[Immediately return this expression instead of assigning it to the temporary variable "key".(Ş§ãıÿÿÿÿ
+B
+java:S3011>",This accessibility update should be removed.(˜ÂÓ˜
+A
+java:S1602K",Remove useless curly braces around statement(ĞÛór
+B
+java:S3011S",This accessibility update should be removed.(˜ÂÓ˜
+G
+java:S3011c",This accessibility update should be removed.(ãÏ½òÿÿÿÿÿ
+R
+java:S1611"6Remove the parentheses around the "treeNode" parameter(­Šèşÿÿÿÿ
+G
+java:S1905"+Remove this unnecessary cast to "NodeData".(äÓµûÿÿÿÿ

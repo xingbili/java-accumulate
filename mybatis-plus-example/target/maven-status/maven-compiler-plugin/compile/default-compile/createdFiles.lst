@@ -1,0 +1,9 @@
+work\xingbili\config\DBConfig.class
+META-INF\spring-configuration-metadata.json
+work\xingbili\test\MybatisSampleFromConfigClass.class
+work\xingbili\utils\BasePageInfo.class
+work\xingbili\test\MybatisSampleFromConfigFile.class
+work\xingbili\test\TestMybatisPlusQuery.class
+work\xingbili\test\OriSample.class
+work\xingbili\MyBatisApplication.class
+work\xingbili\config\DataSourceProxyConfig.class

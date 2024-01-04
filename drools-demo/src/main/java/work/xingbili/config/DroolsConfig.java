@@ -20,17 +20,16 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DroolsConfig {
 
-  private static final String RULES_CUSTOMER_RULES_DRL = "rules/orderDiscount.drl";
-  private static final KieServices kieServices = KieServices.Factory.get();
+    private static final String RULES_CUSTOMER_RULES_DRL = "rules/orderDiscount.drl";
+    private static final KieServices kieServices = KieServices.Factory.get();
 
-  @Bean
-  public KieContainer kieContainer() {
-    KieFileSystem kieFileSystem = kieServices.newKieFileSystem();
-    kieFileSystem.write(ResourceFactory.newClassPathResource(RULES_CUSTOMER_RULES_DRL));
-    KieBuilder kb = kieServices.newKieBuilder(kieFileSystem);
-    kb.buildAll();
-    KieModule kieModule = kb.getKieModule();
-    KieContainer kieContainer = kieServices.newKieContainer(kieModule.getReleaseId());
-    return kieContainer;
-  }
+    @Bean
+    public KieContainer kieContainer() {
+        KieFileSystem kieFileSystem = kieServices.newKieFileSystem();
+        kieFileSystem.write(ResourceFactory.newClassPathResource(RULES_CUSTOMER_RULES_DRL));
+        KieBuilder kb = kieServices.newKieBuilder(kieFileSystem);
+        kb.buildAll();
+        KieModule kieModule = kb.getKieModule();
+        return kieServices.newKieContainer(kieModule.getReleaseId());
+    }
 }

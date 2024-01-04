@@ -5,34 +5,36 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>work.xingbili</groupId>
-    <artifactId>xingbili-parent</artifactId>
+    <artifactId>java-accumulate</artifactId>
     <packaging>pom</packaging>
     <name>xingbili-parent</name>
     <description>根POM</description>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>hello-shiro</module>
-        <module>springboot-shiro</module>
         <module>mock-server</module>
         <module>code-generator</module>
         <module>person-demo</module>
         <module>mybatis-plus-example</module>
         <module>xingbili-spring-boot-start</module>
         <module>drools-demo</module>
+        <module>springboot3.x-demo</module>
     </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.5.4</version>
+        <version>3.0.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
         <skipTests>true</skipTests>
+        <spring-boot.version>3.0.5</spring-boot.version>
+        <mysql-connector.version>8.0.28</mysql-connector.version>
     </properties>
 
     <!--许可管理-->
@@ -81,9 +83,14 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <version>2.5.4</version>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
